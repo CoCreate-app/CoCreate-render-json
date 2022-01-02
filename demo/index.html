@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Attributes | CoCreateJS</title>
+
+        <!-- CoCreate Favicon -->
+        <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+        <!-- CoCreateCSS -->
+        <link rel="stylesheet" href="https://cdn.cocreate.app/render-json/latest/CoCreate-render-json.min.css" type="text/css" />
+    </head>
+
+    <body>
+
+        <div style="padding: 20px">
+            <form collection="apples" class="mbottom-75">
+                
+                <!--ToDo: Maybe the future of attribute fetch-->
+                <!--<div href='{files.{{data._id}}.path"}'></div>-->
+                
+                <!-- usecase 1: process to get value-->
+                <input fetch-for data-test_1='../testing/{ "collection":"apples", "document_id":"5fe9e0a11b4a703e71c51ba8", "name":"name" }' 
+                    data-test_2='{ "collection":"modules", "document_id":"5ebc16fc8917bc59483a7e3b", "name":"nameOtro123" }' type="text" collection="modules"
+                    realtime="true" document_id="5ebc16fc8917bc59483a7e3b" name="nameOtro123">
+                <input fetch-for data-test_1='../testing/{ "collection":"apples", "document_id":"5fe9e0a11b4a703e71c51ba8", "name":"name" }' 
+                    data-test_2='{ "collection":"modules", "document_id":"5ebc16fc8917bc59483a7e3b", "name":"nameOtro123" }' type="text" collection="modules"
+                    realtime="true" document_id="5ebc16fc8917bc59483a7e3b" name="nameOtro123">
+                
+                <!-- usecase 2: only name exists will get collcecton and document_id from element-->
+                <input fetch-for data-test_2='{ "name":"name" }' type="text" collection="apples" realtime="true" document_id="5fe9e0a11b4a703e71c51ba8" name="nameOtro123" pass_id="1234">
+
+                <!-- usecase 3: only document_id and name exists will get collcecton from element-->
+                <textarea fetch-for data-test_3='{ "document_id":"5fe9e0a11b4a703e71c51ba8", "name":"nametest1" }' collection="apples" realtime="true" document_id="5ebc16fc8917bc59483a7e3b" name="nameOtro123" rows="10"></textarea>
+
+                <!-- usecase 4: only collection and name exists will get document_id from element-->
+                <textarea fetch-for data-test_4='{"name":"name" }' collection="apples" realtime="true" document_id="5fe9e0a11b4a703e71c51ba8" name="nameOtro123" rows="10"></textarea>
+
+                <!-- usecase 5: using pass_id to get collcecton and document_id -->
+                <textarea fetch-for data-co='{"pass_id":"1234", "name":"name" }' pass_id="1234" realtime="true" document_id="5fe9e0a11b4a703e71c51ba8" collection="apples" name="nameOtro123" rows="10"></textarea>
+            </form>
+        </div>
+
+        <script>
+            var config = {
+                apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+                organization_Id: '5de0387b12e200ea63204d6c',
+                host: 'ws.cocreate.app'
+            }
+        </script>
+        <script>
+        //   var config = {
+        //     apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
+        //     organization_Id: '5de0387b12e200ea63204d6c',
+        //     host: 'server.cocreate.app:8088'
+        //   }
+        </script>
+
+        <!-- CoCreate JS CDN -->
+        <script src="https://server.cocreate.app/CoCreateJS/dist/CoCreate.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,70 @@
+{
+  "name": "@cocreate/render-json",
+  "version": "1.0.0",
+  "description": "Data attributes which can be used for components in CoCreate framework combined as a group of attributes that dynamically change attributes & fetch custom data.",
+  "keywords": [
+    "render-json",
+    "cocreate",
+    "low-code-framework",
+    "no-code-framework",
+    "cocreatejs",
+    "cocreatejs-component",
+    "cocreate-framework",
+    "no-code",
+    "low-code",
+    "collaborative-framework",
+    "realtime",
+    "realtime-framework",
+    "collaboration",
+    "shared-editing",
+    "html5-framework",
+    "javascript-framework"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "npx webpack --config webpack.config.js",
+    "build": "NODE_ENV=production npx webpack --config webpack.config.js",
+    "dev": "npx webpack --config webpack.config.js --watch",
+    "docs": "node ./node_modules/@cocreate/docs/src/index.js",
+    "hosting": "node ./node_modules/@cocreate/hosting/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoCreate-app/CoCreate-render-json.git"
+  },
+  "author": "CoCreate LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoCreate-app/CoCreate-render-json/issues"
+  },
+  "homepage": "https://cocreate.app/docs/render-json",
+  "funding": {
+    "type": "GitHub Sponsors ❤",
+    "url": "https://github.com/sponsors/CoCreate-app"
+  },
+  "main": "./src/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.5.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-log": "^3.0.1"
+  },
+  "dependencies": {
+    "@cocreate/actions": "^1.3.25",
+    "@cocreate/crud-client": "^1.4.40",
+    "@cocreate/docs": "^1.2.62",
+    "@cocreate/observer": "^1.3.54",
+    "@cocreate/utils": "^1.4.0"
+  }
+}
