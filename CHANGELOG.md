@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.0.2...v1.0.3) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([ee66a48](https://github.com/CoCreate-app/CoCreate-render-json/commit/ee66a487c67fd1a010f9faecd39becae7557dd91))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.0.1...v1.0.2) (2022-02-01)
 
 
