@@ -51,7 +51,11 @@ const CoCreateRenderJson = {
 							attr_value = attr_value.replace(json_str, value);
 						}
 					}
-					item.el.setAttribute(item.attr, attr_value);
+					let option = item.el.getAttribute('fetch-for');
+					if (option == 'lowercase')
+						item.el.setAttribute(item.attr, attr_value.toLowerCase());
+					else
+						item.el.setAttribute(item.attr, attr_value);
 					
 					// if (item.attr == 'collection') {
 					// 	runInitModule('cocreate-text');						
@@ -83,6 +87,7 @@ const CoCreateRenderJson = {
 
 		elements.forEach((el) => {
 			//. check
+			if (el.closest('.template')) return;
 			const el_collection = el.getAttribute('collection')
 			const el_documentId = el.getAttribute('document_id')
 			const el_name = el.getAttribute('name')
