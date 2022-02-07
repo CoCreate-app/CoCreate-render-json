@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.0.3...v1.1.0) (2022-02-07)
+
+
+### Features
+
+* ability to set an option on attribute fetch-for. currently supprts lowercase to insert value as lower case ([f58c60a](https://github.com/CoCreate-app/CoCreate-render-json/commit/f58c60ad309725352eb7552c90630ce3a2563217))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.0.2...v1.0.3) (2022-02-03)
 
 
