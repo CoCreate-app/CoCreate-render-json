@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.4...v1.1.5) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([0a86efe](https://github.com/CoCreate-app/CoCreate-render-json/commit/0a86efe65adb863fb6771af0fd17b490ef4d0d81))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.3...v1.1.4) (2022-02-24)
 
 
