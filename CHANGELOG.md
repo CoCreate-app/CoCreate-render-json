@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.5...v1.1.6) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([db97a07](https://github.com/CoCreate-app/CoCreate-render-json/commit/db97a07dec2770632ffc088c6d50ad539eebabd0))
+
 ## [1.1.5](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.4...v1.1.5) (2022-05-06)
 
 

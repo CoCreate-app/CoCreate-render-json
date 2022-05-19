@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/render-json",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Data attributes which can be used for components in CoCreate framework combined as a group of attributes that dynamically change attributes & fetch custom data.",
   "keywords": [
     "render-json",
