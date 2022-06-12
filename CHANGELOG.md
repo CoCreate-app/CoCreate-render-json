@@ -1,3 +1,11 @@
+## [1.1.8](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.7...v1.1.8) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([7b85911](https://github.com/CoCreate-app/CoCreate-render-json/commit/7b85911996e1f69f47c4bdda919408ade818708c))
+* update docs css document_id ([5e03969](https://github.com/CoCreate-app/CoCreate-render-json/commit/5e03969eafafcfc95c51109f9a78383ff0259aa6))
+
 ## [1.1.7](https://github.com/CoCreate-app/CoCreate-render-json/compare/v1.1.6...v1.1.7) (2022-05-23)
 
 
